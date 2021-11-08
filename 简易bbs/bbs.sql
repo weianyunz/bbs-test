@@ -28,6 +28,7 @@ CREATE TABLE IF NOT EXISTS `member` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=17 ;
 
+-- 转存表中的数据 `member`
 INSERT INTO `member` (`id`, `name`, `pw`, `photo`, `register_time`, `last_time`,`sign`) VALUES
 (1, '测试1', 'e10adc3949ba59abbe56e057f20f883e', '', '2021-11-07 16:11:27', '0000-00-00 00:00:00',''),
 (2, '测试2', 'e10adc3949ba59abbe56e057f20f883e', '', '2021-11-07 16:15:22', '0000-00-00 00:00:00','');
